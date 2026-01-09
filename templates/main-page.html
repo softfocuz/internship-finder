@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="home-container content-col">
+        <div id="overlay" onclick="closeSidebar()"></div>
+        <div class="navigation content-row">
+           <div class="nav-con">
+           <button onclick="show()" class="icon-link"><img src="../static/icon.png"></button>
+        </div>
+        <div class="side-filter-bar">
+            <div class="filter-bar-con">
+                <div class="filter-bar content-row">
+                    <h3 class="filter-bar-ttl">Filter Options</h3>
+                    <button class="close-btn" onclick="closeSidebar()">x</button>
+                </div>
+            </div>
+            <div class="input-filter-content content-col">
+                <form>
+                    <input placeholder="Location" type="text">
+                    <input placeholder="Role / Field" type="text">
+                    <button class="submit" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+
+            <nav class="float-navigation-bar main-nav content-row">
+                <a href="index.html" id="home" class="nav-links links">Home</a>
+                <a href="#faqs" id="faqs" class="nav-links links">FAQs</a>
+                <a href="#about" id="about" class="nav-links links">About</a>
+                <a href="#contact" id="contact" class="nav-links links">Contact</a>
+            </nav>
+        </div>
+        <h2 class="display-title ttl">Internship Finder</h2>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
